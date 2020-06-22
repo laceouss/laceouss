@@ -110,11 +110,7 @@ section#image  > div{
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-	color: rgba(255, 225, 225, 0.1);
-	background-image: url('black.jpg');
-	-webkit-background-clip: text;
-	animation: spice 15s linear infinite;
-	background-repeat: repeat-x repeat-y;
+        color: black;
 	font-weight: bold;
 }
 #spice{
