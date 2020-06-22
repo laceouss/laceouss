@@ -101,6 +101,22 @@ section#image  > div{
 	bottom: -180px;
 	left: 0px;
 }
+#spice1{
+	padding: 15px;
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Michroma', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: rgba(255, 225, 225, 0.1);
+	background-image: url('black.jpg');
+	-webkit-background-clip: text;
+	animation: spice 15s linear infinite;
+	background-repeat: repeat-x repeat-y;
+	font-weight: bold;
+}
 #spice{
 	padding: 15px;
 	font-family: 'Six Caps', sans-serif;
