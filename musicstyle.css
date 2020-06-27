@@ -5,6 +5,7 @@ body{
   background: black;
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 @keyframes spice {
 	0%{
@@ -52,6 +53,19 @@ section{
   position: absolute;
   top: 85%;
   left: 47%;
+  text-decoration: none;
+  background-color: black;
+  color:#83ff77;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #83ff77;
+  font-family: 'Montserrat', sans-serif;
+}
+.link1{
+  position: absolute;
+  top: 137%;
+  left: 40%;
   text-decoration: none;
   background-color: black;
   color:#83ff77;
