@@ -24,18 +24,18 @@ h1{
   left: 18px;
 }
 section{
-  width: 400px;
-  height: 400px;
-  position: absolute;
+  width: 320px;
+  height: 320px;
+  position: relative;
   left: 50%;
-  top: 40%;
-  margin-left: -200px;
+  top: 25%;
+  margin-left: -160px;
   margin-top: -160px;
 }
 #album{
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: relative;
 	background-size: cover;
 	margin: auto;
   background-image: url("album.jpeg");
@@ -49,28 +49,31 @@ section{
   margin-left: 25px;
   margin-top: -225px;
 } */
-.link{
-  position: absolute;
-  top: 85%;
-  left: 47%;
-  text-decoration: none;
-  background-color: black;
-  color:#83ff77;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 10px;
-  border: 1px solid #83ff77;
-  font-family: 'Montserrat', sans-serif;
+.albumnames{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    font-size: 30px;
 }
-.link1{
-  position: absolute;
-  top: 137%;
-  left: 40%;
+.shit{
+  text-align: center;
+  position: relative;
+  font-size: 10px;
+  top: 15px;
+  color: grey;
+}
+.link{
+  position: relative;
+  top: 35px;
+  /* left: 47%; */
   text-decoration: none;
   background-color: black;
   color:#83ff77;
   font-size: 15px;
   font-weight: bold;
+  align-items: center;
   padding: 10px;
   border: 1px solid #83ff77;
   font-family: 'Montserrat', sans-serif;
@@ -117,12 +120,12 @@ li{
   }
   section{
     width: 320px;
-    height: 350px;
+    height: 320px;
     position: absolute;
     left: 50%;
     top: 50%;
     margin-left: -160px;
-    margin-top: -175px;
+    margin-top: -160px;
 }
   #album{
   	width: 100%;
@@ -131,20 +134,34 @@ li{
   	margin: auto;
     background-image: url("album.jpeg");
   }
+  .albumnames{
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+      font-size: 30px;
+  }
+  .shit{
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+    top: 15px;
+    color: grey;
+  }
   .link{
+    position: relative;
+    top: 35px;
+    /* left: 47%; */
     text-decoration: none;
     background-color: black;
     color:#83ff77;
     font-size: 15px;
-    padding: 10px;
     font-weight: bold;
+    align-items: center;
+    padding: 10px;
     border: 1px solid #83ff77;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 70%;
-    margin-top: 100px;
-    left: 48%;
-    margin-left: -36px;
   }
   .link:hover {
     text-decoration: none;
