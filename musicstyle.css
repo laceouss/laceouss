@@ -32,14 +32,6 @@ section{
   margin-left: -160px;
   margin-top: -160px;
 }
-#album{
-	width: 100%;
-	height: 100%;
-	position: relative;
-	background-size: cover;
-	margin: auto;
-  background-image: url("album.jpeg");
-}
 /* .list{
   width: 400px;
   height: 430px;
@@ -123,16 +115,9 @@ li{
     height: 320px;
     position: relative;
     left: 50%;
-    top: 25%;
+    top: 30%;
     margin-left: -160px;
     margin-top: -160px;
-  }
-  #album{
-  	width: 100%;
-  	height: 100%;
-  	background-size: cover;
-  	margin: auto;
-    background-image: url("album.jpeg");
   }
   .albumnames{
       text-align: center;
@@ -140,7 +125,7 @@ li{
       font-weight: bold;
       position: relative;
       top: 10px;
-      font-size: 30px;
+      font-size: 20px;
   }
   .shit{
     text-align: center;
@@ -187,7 +172,7 @@ li{
   	font-family: 'Michroma', sans-serif;
   	font-size: 15px;
   	display: inline-block;
-  	position: absolute;
+  	position: fixed;
   	bottom: 0px;
   	right: 0px;
   	color: rgba(255, 225, 225, 0.1);
