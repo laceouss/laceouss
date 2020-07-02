@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
 const music = document.querySelector('#music');
 const preorder = document.querySelector('.preorder');
-const video = document.querySelector('#vid');
+const video = document.querySelector('video');
 const scroll = document.querySelector('.scrolldown');
 const spice1 = document.querySelector('#spice1');
 const bgsong = document.querySelector('#backsong');
@@ -36,7 +36,8 @@ else if (medialarglap.matches) {
 window.addEventListener("scroll",(event) => {
 	const { top } = image.getBoundingClientRect();
 	if (top < scrollAmount) {
-		bgsong.play()
+		bgsong.play();
+		video.play();
 		scroll.style.opacity = 0;
     video.style.opacity = 1;
 		sad.style.opacity = 0;
@@ -60,7 +61,8 @@ window.addEventListener("scroll",(event) => {
 		}
 }
 		else {
-			bgsong.pause()
+			bgsong.pause();
+			video.pause();
 		scroll.style.opacity = 1;
     video.style.opacity = 0;
 		sad.style.opacity = 1;
