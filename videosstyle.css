@@ -17,7 +17,7 @@ body{
 h1{
   color: white;
   font-family: 'Six Caps', sans-serif;
-  font-size: 50PX;
+  font-size: 60PX;
   position: relative;
 }
 p{
@@ -52,12 +52,6 @@ p{
 iframe{
   height: 280px;
   width: 100%;
-}
-.name{
-	color: white;
-	font-size: 30px;
-	font-family: 'Bangers', cursive;
-	padding: 15px;
 }
 @media (min-width: 576px){
   iframe{
