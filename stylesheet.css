@@ -88,6 +88,7 @@ section#image  > div{
 	display: inline-block;
 	position: absolute;
 	bottom: -100px;
+		bottom: -180px;
 	left: 0px;
 }
 #video{
@@ -264,6 +265,7 @@ a:hover{
 	#music{
 		font-size: 30px;
 			bottom: -120px;
+						bottom: -170px;
 	}
 	#video{
 		font-size: 30px;
@@ -295,7 +297,7 @@ a:hover{
 		font-size: 27px;
 	}
   #music{
-    bottom: -120px;
+    /* bottom: -120px; */
   }
   .scrolldown{
 		bottom: -50px;
@@ -317,6 +319,7 @@ a:hover{
 	}
 	#music{
 		bottom: -6%;
+				bottom: -15%;
 	}
 	.preorder{
 		top: 190px;
