@@ -360,7 +360,7 @@ font-family: 'Oswald', sans-serif;
 		font-size: 30px;
 			bottom: -170px;
 	}
-  .pp .tc{
+  .pp, .tc{
      bottom: -160px;
 	}
 	.scrolldown{
@@ -391,7 +391,7 @@ font-family: 'Oswald', sans-serif;
   #music{
     /* bottom: -120px; */
   }
-	.pp .tc{
+	.pp, .tc{
 		bottom: -170px;
 	}
   .scrolldown{
