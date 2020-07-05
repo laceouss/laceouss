@@ -375,7 +375,6 @@ ul li a:before{
 }
 @media (min-width: 576px){
 	h1{
-		left: 25px;
 		top: 20px;
 	}
 	#video{
