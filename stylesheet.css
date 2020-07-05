@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap');
 @font-face {
 	font-family: Laceouss;
 	src: url("Prida65.otf");
@@ -250,7 +251,7 @@ a:hover{
 ul{
 	display: flex;
 	position: fixed;
-	bottom: 5%;
+	bottom: 4%;
 	right: 50%;
 	/* left: 48%; */
 	transform: translate(50%,-50%);
@@ -310,6 +311,30 @@ ul li a:before{
 	transition: .5s;
 	z-index: 2;
 }
+.tc{
+	position: absolute;
+	bottom: -12%;
+	left: 50%;
+	color: grey;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10px;
+	text-decoration-style: solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.pp{
+	position: absolute;
+	bottom: -12%;
+  right: 51%;
+	color: grey;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10px;
+		text-decoration-style: solid;
+		font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
 @media (min-width: 0px) and (max-width: 425px){
 	h1{
 		top: 76px;
@@ -329,12 +354,13 @@ ul li a:before{
 	#music{
 		font-size: 30px;
 			bottom: -120px;
-						bottom: -170px;
+			bottom: -170px;
 	}
 	#video{
 		font-size: 30px;
 			bottom: -170px;
 	}
+
 	.scrolldown{
 	bottom: -60px;
 	margin-left: -8px;
