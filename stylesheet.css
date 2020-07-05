@@ -34,6 +34,40 @@ body{
 		background-position: left 800px top 10px;
 	}
 }
+@keyframes scroll {
+	0%{
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+	25%{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+	100%{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+@keyframes scrollmob {
+	0%{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+	25%{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+	100%{
+		top: -10px;
+		left: -10px;
+		opacity: 0;
+	}
+}
 h1{
 	color: #ff0000;
 	position: relative;
@@ -41,6 +75,7 @@ h1{
   opacity: 0;
 	font-size: 70px;
 	top: 15%;
+	/* left: 500px; */
 }
 section{
   width: 450px;
@@ -212,43 +247,72 @@ a:hover{
 	transform: translate(15px,15px);
 		animation-delay: 0s;
 } */
-@keyframes scroll {
-	0%{
-		top: -5px;
-		left: -5px;
-		opacity: 0;
-	}
-	25%{
-		top: 0px;
-		left: 0px;
-		opacity: 1;
-	}
-	100%{
-		top: 5px;
-		left: 5px;
-		opacity: 0;
-	}
+ul{
+	display: flex;
+	position: fixed;
+	bottom: 5%;
+	right: 53%;
+	/* left: 48%; */
+	transform: translate(50%,-50%);
+	opacity: 0;
 }
-@keyframes scrollmob {
-	0%{
-		top: 5px;
-		left: 5px;
-		opacity: 0;
-	}
-	25%{
-		top: 0px;
-		left: 0px;
-		opacity: 1;
-	}
-	100%{
-		top: -10px;
-		left: -10px;
-		opacity: 0;
-	}
+ul li{
+	list-style: none;
+}
+ul li a{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	margin: 0 3px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 1px black;
+	z-index: 1;
+}
+ul li a .fa{
+	position: relative;
+	color: grey;
+	transition: .5s;
+	z-index: 3;
+}
+ul li a:hover .fa{
+	color: #fff;
+	transform: rotateY(360deg);
+	font-size: 25px;
+}
+ul li:nth-child(2) a:hover .fa{
+  color: #F9F6EF;
+}
+ul li:nth-child(1) a:hover .fa{
+  color: #1DB954;
+}
+ul li:nth-child(5) a:hover .fa{
+  color: #4267B2;
+}
+ul li:nth-child(3) a:hover .fa{
+  color: #FF0000;
+}
+ul li:nth-child(4) a:hover .fa{
+  color: #C13584;
+}
+ul li a:before{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: #f00; */
+	transition: .5s;
+	z-index: 2;
 }
 @media (min-width: 0px) and (max-width: 425px){
 	h1{
-		top: 80px;
+		top: 76px;
 		font-size: 50px;
 	}
 	section{
@@ -331,5 +395,11 @@ a:hover{
 		border-bottom: 2.5px solid black;
 		border-right: 2.5px solid black;
 		animation: scroll 1.2s  ease-in-out infinite;
+	}
+	ul{
+     right: 52%;
+	}
+	ul li a{
+		 margin: 0 10px;
 	}
 }
