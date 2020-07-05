@@ -123,7 +123,7 @@ section#image  > div{
 	font-size: 35px;
 	display: inline-block;
 	position: absolute;
-	bottom: -180px;
+	bottom: -180px;100
 		bottom: -180px;
 	left: 0px;
 }
@@ -360,7 +360,9 @@ font-family: 'Oswald', sans-serif;
 		font-size: 30px;
 			bottom: -170px;
 	}
-
+  .pp .tc{
+     bottom: -160px;
+	}
 	.scrolldown{
 	bottom: -60px;
 	margin-left: -8px;
@@ -389,6 +391,9 @@ font-family: 'Oswald', sans-serif;
   #music{
     /* bottom: -120px; */
   }
+	.pp .tc{
+		bottom: -170px;
+	}
   .scrolldown{
 		bottom: -50px;
     margin-left: -8px;
