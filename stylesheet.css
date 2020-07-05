@@ -361,7 +361,10 @@ font-family: 'Oswald', sans-serif;
 			bottom: -170px;
 	}
   .pp{
-     bottom: -160px;
+     bottom: -155px;
+	}
+	.tc{
+		bottom: -155px;
 	}
 	.scrolldown{
 	bottom: -60px;
@@ -392,7 +395,10 @@ font-family: 'Oswald', sans-serif;
     /* bottom: -120px; */
   }
 	.tc{
-		bottom: -170px;
+		bottom: -165px;
+	}
+	.pp{
+		 bottom: -165px;
 	}
   .scrolldown{
 		bottom: -50px;
