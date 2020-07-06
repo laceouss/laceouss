@@ -316,7 +316,7 @@ ul li a:before{
 .pp{
 	position: absolute;
 	bottom: -12%;
-	left: 53%;
+	left: 51%;
 	color: #606060;
 	text-align: center;
 	font-weight: lighter;
@@ -328,7 +328,7 @@ font-family: 'Oswald', sans-serif;
 .tc{
 	position: absolute;
 	bottom: -12%;
-  right: 51%;
+  right: 50%;
 	color: #606060;
 	text-align: center;
 	font-weight: lighter;
@@ -363,7 +363,6 @@ font-family: 'Oswald', sans-serif;
 			bottom: -170px;
 	}
   .pp{
-			left: 55%;
      bottom: -155px;
 	}
 	.tc{
@@ -404,7 +403,6 @@ font-family: 'Oswald', sans-serif;
 		bottom: -165px;
 	}
 	.pp{
-			left: 55%;
 		 bottom: -165px;
 	}
 	ul{
