@@ -76,6 +76,8 @@ h1{
   opacity: 0;
 	font-size: 70px;
 	top: 15%;
+	padding: 10px;
+	text-align: center;
 	/* left: 500px; */
 }
 section{
@@ -256,6 +258,7 @@ ul{
 	/* left: 48%; */
 	transform: translate(50%,-50%);
 	opacity: 0;
+	padding: 0;
 }
 ul li{
 	list-style: none;
@@ -276,7 +279,7 @@ ul li a{
 }
 ul li a .fa{
 	position: relative;
-	color: grey;
+	color: 	#C8C8C8;
 	transition: .5s;
 	z-index: 3;
 }
@@ -314,8 +317,8 @@ ul li a:before{
 .tc{
 	position: absolute;
 	bottom: -12%;
-	left: 50%;
-	color: grey;
+	left: 51%;
+	color: #606060;
 	text-align: center;
 	font-weight: lighter;
 	font-size: 10px;
@@ -327,7 +330,7 @@ font-family: 'Oswald', sans-serif;
 	position: absolute;
 	bottom: -12%;
   right: 51%;
-	color: grey;
+	color: #606060;
 	text-align: center;
 	font-weight: lighter;
 	font-size: 10px;
@@ -439,7 +442,7 @@ font-family: 'Oswald', sans-serif;
 		animation: scroll 1.2s  ease-in-out infinite;
 	}
 	ul{
-     right: 52%;
+     right: 50%;
 	}
 	ul li a{
 		 margin: 0 10px;
