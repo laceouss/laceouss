@@ -313,10 +313,10 @@ ul li a:before{
 	transition: .5s;
 	z-index: 2;
 }
-.tc{
+.pp{
 	position: absolute;
 	bottom: -12%;
-	left: 51%;
+	left: 53%;
 	color: #606060;
 	text-align: center;
 	font-weight: lighter;
@@ -325,7 +325,7 @@ ul li a:before{
 	font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Oswald', sans-serif;
 }
-.pp{
+.tc{
 	position: absolute;
 	bottom: -12%;
   right: 51%;
@@ -363,6 +363,7 @@ font-family: 'Oswald', sans-serif;
 			bottom: -170px;
 	}
   .pp{
+			left: 55%;
      bottom: -155px;
 	}
 	.tc{
@@ -403,10 +404,11 @@ font-family: 'Oswald', sans-serif;
 		bottom: -165px;
 	}
 	.pp{
+			left: 55%;
 		 bottom: -165px;
 	}
 	ul{
-		right: 50%;
+		right: 48%;
 	}
   .scrolldown{
 		bottom: -50px;
