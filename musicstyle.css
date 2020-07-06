@@ -99,7 +99,6 @@ section{
   font-weight: bold;
 }
 img:hover{
-  border: 2px solid red;
   animation: bluea .8s ease-in-out;
   width: 305px;
   height: 305px;
