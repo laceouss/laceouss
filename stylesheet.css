@@ -76,9 +76,9 @@ h1{
   opacity: 0;
 	font-size: 70px;
 	top: 15%;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
-	/* left: 500px; */
+	margin: 0px;
 }
 section{
   width: 450px;
@@ -340,7 +340,7 @@ font-family: 'Oswald', sans-serif;
 }
 @media (min-width: 0px) and (max-width: 425px){
 	h1{
-		top: 76px;
+		top: 50px;
 		font-size: 50px;
 	}
 	section{
@@ -370,7 +370,7 @@ font-family: 'Oswald', sans-serif;
 		bottom: -155px;
 	}
 	ul{
-		right: 55%;
+		right: 48%;
 	}
 	.scrolldown{
 	bottom: -60px;
