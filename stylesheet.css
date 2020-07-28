@@ -107,7 +107,7 @@ section#image  > div{
 }
 #sad{
 	background-image: url("sad1.jpeg");
-    opacity: 1;
+    opacity: 0;
      background-position: center;
 }
 #happy{
