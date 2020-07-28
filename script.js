@@ -68,7 +68,7 @@ window.addEventListener("scroll",(event) => {
 			video.pause();
 		scroll.style.opacity = 1;
     video.style.opacity = 0;
-		sad.style.opacity = 1;
+		sad.style.opacity = 0;
 		happy.style.opacity = 0;
 		spice1.style.opacity= 1;
 		body.style.backgroundColor= "white";
