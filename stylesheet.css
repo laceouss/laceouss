@@ -14,13 +14,14 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	animation: 3s animate infinite;
 }
 @keyframes animate{
 	0%{
 		background-color: white;
   }
 	100%{
-		background-color: #000000;
+		background-color: black;
 	}
 }
 @keyframes come {
@@ -45,6 +46,7 @@ body{
 		top: 0px;
 		left: 0px;
 		opacity: 1;
+			border-color: white;
 	}
 	100%{
 		top: 5px;
@@ -67,6 +69,18 @@ body{
 		top: -10px;
 		left: -10px;
 		opacity: 0;
+	}
+}
+@keyframes spice1 {
+	0%{
+		top: 50%;
+	}
+	50%{
+		transform: rotateY(360deg);
+	}
+	100%{
+		top: 50%;
+		color: red;
 	}
 }
 h1{
@@ -143,13 +157,16 @@ section#image  > div{
 	padding: 15px;
 	font-family: 'Six Caps', sans-serif;
 	font-family: 'Michroma', sans-serif;
-	font-size: 15px;
+	font-size: 300px;
 	display: inline-block;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+  left: 50%;
+  top: 50%;
+	margin-left: -583.49px;
+	margin-top: -232.5px;
 	color: black;
 	font-weight: bold;
+	animation: spice1 3s ease-in-out infinite;
 }
 #spice{
 	padding: 15px;
@@ -438,7 +455,7 @@ font-family: 'Oswald', sans-serif;
 	.scrolldown span{
 		border-bottom: 2.5px solid black;
 		border-right: 2.5px solid black;
-		animation: scroll 1.2s  ease-in-out infinite;
+		animation: scroll 1s  ease-in-out infinite;
 	}
 	ul{
      right: 50%;
