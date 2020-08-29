@@ -157,13 +157,13 @@ section#image  > div{
 	padding: 15px;
 	font-family: 'Six Caps', sans-serif;
 	font-family: 'Michroma', sans-serif;
-	font-size: 300px;
+	font-size: 100px;
 	display: inline-block;
 	position: absolute;
   left: 50%;
   top: 50%;
-	margin-left: -583.49px;
-	margin-top: -232.5px;
+	margin-left: -210px;
+	margin-top: -90px;
 	color: black;
 	font-weight: bold;
 	animation: spice1 3s ease-in-out infinite;
@@ -448,6 +448,11 @@ font-family: 'Oswald', sans-serif;
 	}
 	.preorder{
 		top: 190px;
+	}
+	#spice1{
+	font-size: 300px;
+		margin-left: -583.49px;
+		margin-top: -232.5px;
 	}
 	#spice{
 		bottom: -15%;
