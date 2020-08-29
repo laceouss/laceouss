@@ -356,7 +356,7 @@ font-family: 'Oswald', sans-serif;
 }
 @media (min-width: 0px) and (max-width: 425px){
 	h1{
-		top: 50px;
+		top: 60px;
 		font-size: 50px;
 	}
 	section{
@@ -377,13 +377,13 @@ font-family: 'Oswald', sans-serif;
 	}
 	#video{
 		font-size: 30px;
-			bottom: -170px;
+			bottom: -160px;
 	}
   .pp{
-     bottom: -155px;
+     bottom: -140px;
 	}
 	.tc{
-		bottom: -155px;
+		bottom: -140px;
 	}
 	ul{
 		right: 50%;
